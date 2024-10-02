@@ -10,7 +10,7 @@ for($i=0; $i<4; $i++){
 array_push($cadastro,[$nome, $bairro]);
 }
 sort($cadastro);
-foreach($cadastro as $pessoa){
+foreach($cadastro as $pessoaN){
     print($pessoa[0] . ",". $pessoa[1] . "\n");
 }
 
